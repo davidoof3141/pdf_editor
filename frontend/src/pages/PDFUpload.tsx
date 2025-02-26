@@ -51,7 +51,7 @@ export default function PDFUpload() {
           <label className="flex flex-col items-center cursor-pointer border-dashed border-2 border-gray-400 rounded-lg p-6 w-full text-center bg-gray-50 hover:bg-gray-100">
             <UploadCloud className="w-12 h-30 text-gray-500" />
             <span className="mt-2 text-sm text-gray-700">
-              Drag & drop PDFs or click to upload
+              Drag & drop PDFs or click to uploads
             </span>
             <input
               type="file"

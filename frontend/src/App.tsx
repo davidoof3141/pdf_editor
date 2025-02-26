@@ -2,7 +2,7 @@ import "./App.css";
 import PDFUpload from "./pages/PDFUpload";
 
 function App() {
-  return PDFUpload()
+  return <PDFUpload />
 }
 
 export default App;
