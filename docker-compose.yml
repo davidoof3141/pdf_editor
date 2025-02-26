@@ -20,6 +20,9 @@ services:
     user: "1000:1000"
     volumes:
       - ./frontend:/app
+    environment:
+      - CHOKIDAR_USEPOLLING=true # Ensures file watching works
+      - WATCHPACK_POLLING=true
     
     # environment:
     #   - VITE_BACKEND_URL=http://localhost:8000
